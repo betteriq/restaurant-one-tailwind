@@ -2,10 +2,10 @@ import Navbar from "./Navbar";
 import "../images/food_1.jpg";
 const Header = () => {
   return (
-    <div className="bg-[url('./images/food_1.jpg')] h-screen bg-fixed bg-no-repeat bg-cover relative after:content-['hello'] after:bg-gradient-to-r from-[rgb(189,32,32)] to-blue_1 after:absolute after:top-0 after:left-0 after:h-full after:w-full after:opacity-60">
+    <div className="bg-[url('./images/food_1.jpg')] h-screen bg-fixed bg-no-repeat bg-cover relative header_after ">
       <Navbar />
       <div className="flex items-center h-screen text-aliceblue">
-        <div className="container w-screen my-0 mx-auto top-40">
+        <div className="container ">
           <div className="relative w-50 z-10">
             <h3 className="text-[4rem]">رستوران </h3>
             <p className="text-[1.2rem] leading-10">
