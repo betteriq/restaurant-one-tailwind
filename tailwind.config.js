@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         blue_1: "rgb(0,0,255)",
+        aliceblue: "aliceblue",
       },
     },
   },
