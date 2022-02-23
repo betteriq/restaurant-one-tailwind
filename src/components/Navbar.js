@@ -8,21 +8,6 @@ const Navbar = () => {
           <h4>Rashidi</h4>
         </div>
         <ul className="h-3/5 list-none flex justify-end items-center navbar_ul">
-          {/* <li>
-            <a href="">خانه</a>
-          </li>
-          <li>
-            <a href="">منو لیست</a>
-          </li>
-          <li>
-            <a href="">مغازه</a>
-          </li>
-          <li>
-            <a href="">خانه</a>
-          </li>
-          <li>
-            <a href="">خبرها</a>
-          </li> */}
           {["خانه", "منو لیست", "مغازه", "خبرها"].map((title) => (
             <li>
               <a href="/">{title}</a>

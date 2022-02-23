@@ -5,7 +5,7 @@ const Prices = () => {
     <div className="prices">
       <div className="container">
         <div className="row">
-          <div className="col-3">
+          <div className="w-1/4">
             <div className="price">
               <div className="price_image">
                 <img src="./images/food_1.jpg" alt="" />
@@ -20,7 +20,7 @@ const Prices = () => {
               <p className="price_rs">20000 تومان</p>
             </div>
           </div>
-          <div className="col-3">
+          <div className="w-1/4">
             <div className="price">
               <div className="price_image">
                 <img src="./images/food_1.jpg" alt="" />
@@ -35,7 +35,7 @@ const Prices = () => {
               <p className="price_rs">20000 تومان</p>
             </div>
           </div>
-          <div className="col-3">
+          <div className="w-1/4">
             <div className="price">
               <div className="price_image">
                 <img src="./images/food_1.jpg" alt="" />
@@ -50,7 +50,7 @@ const Prices = () => {
               <p className="price_rs">20000 تومان</p>
             </div>
           </div>
-          <div className="col-3">
+          <div className="w-1/4">
             <div className="price">
               <div className="price_image">
                 <img src="./images/food_1.jpg" alt="" />

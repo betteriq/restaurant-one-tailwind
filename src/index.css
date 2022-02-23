@@ -18,8 +18,39 @@
   .row {
     @apply w-full flex flex-wrap;
   }
-  .container{
-    @apply w-screen my-0 mx-auto top-40
+  .container {
+    @apply w-screen my-0 mx-auto top-40 flex  justify-center items-center;
+  }
+  .about_image {
+    @apply overflow-hidden w-full;
+    height: 480px;
+  }
+  .client {
+    @apply text-center;
+  }
+  .client h1 {
+    @apply text-[45px];
+  }
+  .client p {
+    @apply mt-[10px];
+  }
+  .prices {
+    @apply w-full py-20 px-0;
+  }
+  .price_image {
+    @apply w-full;
+  }
+  .price_image img {
+    @apply w-[250px];
+  }
+  .price_heading {
+    @apply mt-[25px] text-[25px];
+  }
+  .price_text {
+    @apply mt-5 text-[#888888] text-[18px];
+  }
+  .price_rs {
+    @apply text-xl mt-[15px];
   }
 }
 
@@ -28,96 +59,4 @@
   margin: 0;
   box-sizing: border-box;
   direction: rtl;
-}
-
-.p-25 {
-  padding: 25px;
-}
-
-.col-6 {
-  width: 50%;
-}
-.col-3 {
-  width: 25%;
-}
-.col-4 {
-  width: 33.3333333%;
-}
-
-.about_image {
-  width: 100%;
-  overflow: hidden;
-  height: 30rem;
-}
-.about_image img {
-  width: 80%;
-  height: 100%;
-}
-.shop {
-  width: 100%;
-  background: url("images/food_1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 450px;
-  background-attachment: fixed;
-}
-.shop_text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 400px;
-  height: 50vh;
-  color: #fff;
-}
-.shop_text h1 {
-  font-size: 40px;
-  line-height: 40px;
-  font-weight: 700;
-  font-style: normal;
-}
-.shop_btn {
-  margin-top: 35px;
-}
-.clients {
-  width: 100%;
-  padding: 80px 0;
-  background: url("images/ghorme_2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  background-attachment: fixed;
-}
-.client {
-  text-align: center;
-}
-.client h1 {
-  font-size: 45px;
-}
-.client p {
-  font-style: 180x;
-  margin-top: 10px;
-}
-.prices {
-  width: 100%;
-  padding: 80px 0;
-}
-.price_image {
-  width: 100%;
-}
-.price_image img {
-  width: 250px;
-}
-.price_heading {
-  margin-top: 25px;
-  font-size: 25px;
-}
-.price_text {
-  margin-top: 15px;
-  color: #888888;
-  font-size: 18px;
-}
-.price_rs {
-  font-size: 25px;
-  margin-top: 15px;
 }
