@@ -2,13 +2,17 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="p-[80px]">
       <div className="container">
         <div className="row">
-          <div className="col-6 p-25">
-            <h3>درباره ما</h3>
-            <h1>به رستوران رشیدی خوش آمدید</h1>
-            <p>
+          <div className="w-6/12 p-[25px]">
+            <h3 className="text-3xl font-bold leading-10 text-[ rgba(37, 37, 37, 0.733)]">
+              درباره ما
+            </h3>
+            <h3 className="text-gray-900 leading-10 mb-4 text-3xl font-bold">
+              به رستوران رشیدی خوش آمدید
+            </h3>
+            <p className="text-[18px} text-[#8b8b8b] leading-7 font-normal">
               رستوران‌های زنجیره‌ای ارکیده با بیش از ۶۰ سال تجربه، افتخار آن را
               دارد که در ۶ شعبه در سراسر کشور، میزبان محافل دوستانه و کاری،
               جشن‌ها و مراسم‌های شما عزیزان باشد. برای آنکه برایتان بهترین
@@ -23,15 +27,15 @@ const About = () => {
               که اوقات خوشی را برایتان رقم زده و همیشه نام ارکیده میان
               انتخاب‌هایتان بدرخشد.
             </p>
-            <div className="about_btn">
-              <a href="" className="btn btn-smart">
+            <div className="mt-10">
+              <a href="/" className="btn btn-smart">
                 بیشتر بخوانید
               </a>
             </div>
           </div>
-          <div className="col-6">
+          <div className="w-6/12">
             <div className="about_image">
-                <img src="images/gheyme_1.jpg" alt="" />
+              <img src="images/gheyme_1.jpg" alt="" className="w-4/5 h-full" />
             </div>
           </div>
         </div>
